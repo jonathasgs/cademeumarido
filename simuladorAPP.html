@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simulador App</title>
+</head>
+<body>
+    <form id="formID" method="POST" action="recebedor.php">
+        <label>ID do Dispositivo: </label>
+        <input type="text" name="id_disp" placeholder="Digite o ID do Dispositivo" required><br><br>
+        <label>Latitude: </label>
+        <input type="text" name="latitude" placeholder="Digite a Latitude" value="" id="latitude" required><br><br>
+        <label>Longitude: </label>
+        <input type="text" name="longitude" placeholder="Digite a Longitude" value="" id="longitude" required><br><br>
+        
+        <input type="submit" id="botao" name="gravar" onclick="getLocation()" value="Enviar">
+      </form>
+</body>
+</html>

@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    font-family: Calibri;
+    background-color: #3f3f3f;
+   
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+#box{
+    border-radius: 50px;
+    background: silver;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    opacity: 100%;
+}
+#logoWhite{
+   
+    vertical-align: middle;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#iconLogin, #iconPass{
+
+    vertical-align: middle;
+   
+}
+    
+header {
+    padding-left: 10px;
+    height:60px;
+    width:100%;
+    background-color: black;
+    border-bottom: 5px solid #3f3f3f;
+}
+
+#header1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+    width: 250px;
+    height: 60px;
+    margin-left: 20px;
+   
+    }
+
+#header1_1{
+
+    display: flex;
+}
+
+#menu-rastreador {
+    height:100%;
+    margin:0;
+    padding:0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: right;
+    font-size: 15px;
+}
+
+#menu-rastreador li{
+    display: flex;
+    height: 100%;
+    border-right: 1px solid rgb(63, 63, 63);
+   
+}
+#menu-rastreador li:hover {
+    background-color: darkorange;
+}
+
+
+#menu-rastreador li:last-child{
+    border:none;
+}
+
+
+#menu-rastreador li a{
+    height: 100%;
+    justify-content: center;
+    align-items: center;	
+    color:#FFF;
+    text-transform: uppercase;
+    font-family: Calibri; 
+    text-decoration: none;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ #iconLoginWhite{ 
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;  
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+
+
+#sidebox {
+    height: 80vh;
+    width: 280px;
+    background: #3f3f3f;
+    float: left;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+
+}
+
+#dsp11, #dsp12{color:black;}
+
+
+#sidebox p :link, #sidebox p :visited{
+    color: white;
+}
+#sidebox p :hover{
+    color:orange;
+    text-decoration: none;
+}
+#mapa {
+    height:93vh;
+    width:150vh;
+    position: relative;
+    border: 2px pink;
+  }
+
+.modal-body {
+
+  
+    background: #3f3f3f;
+    color: white;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    font-family: 'Calibri';
+}
+
+.modal-dialog{
+
+    background: #3f3f3f;
+}
+
+.modal-content{
+    position:relative;
+    background: #3f3f3f;
+}
+.modal-header, .modal-footer{
+    font-family: 'Calibri';
+    background: #252525;
+    color: white;
+
+}
+
+#formulario fieldset label {
+	display: block;
+	float: left;
+}
+
+#formulario fieldset label, #formulario fieldset  input {
+	width:68px;
+	margin: 3px 0;
+}
+
+#formulario fieldset input{
+	width:300px;
+    color: black;}
+
